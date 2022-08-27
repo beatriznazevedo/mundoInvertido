@@ -1,6 +1,3 @@
-
-import { subscribeToHellfireClube } from './firebase/hellfire-clube.js'
-
 (function main() {
     const txtName = document.getElementById('txtName')
     const txtEmail = document.getElementById('txtEmail')
