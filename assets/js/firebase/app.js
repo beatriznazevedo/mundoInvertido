@@ -5,7 +5,15 @@
   // https://firebase.google.com/docs/web/setup#available-libraries
 
   // Your web app's Firebase configuration
-  import firebaseConfig from "./config.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyDvp_tCn_aJMGjllkFnqnA6GrG_5K_nOzc",
+    authDomain: "projeto-mundoinvertido-e4913.firebaseapp.com",
+    projectId: "projeto-mundoinvertido-e4913",
+    storageBucket: "projeto-mundoinvertido-e4913.appspot.com",
+    messagingSenderId: "307146005184",
+    appId: "1:307146005184:web:38db80d452c7a10ff56b25",
+    measurementId: "G-8DQKM2YZ05"
+  };
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
